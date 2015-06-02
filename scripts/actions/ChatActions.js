@@ -12,5 +12,11 @@ export default {
   },
   getMessages() {
     ApiUtils.getAllMessages();
+  },
+  createUser(user) {
+
+  },
+  loginAction(login) {
+    ApiUtils.loginUser(login);
   }
 };
